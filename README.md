@@ -10,7 +10,7 @@ This folder contains scripts necessary to determine candidate FDSIs. First, gene
 sequences for family members are pulled from ensembl using either the biomart community portal or the biomaRt tool in R. Then, blastp is performed using
 gold standard FDSI sequences as query and family member sequences as subject. Finally, candidate FDSIs are determined from alignment results. 
 
-## CDDAnnotations
+## CDDAnnotation
 Generating domain annotations of gold standard and candidate FDSIs. Peptide sequences are first run through the CDD web tool to generate domain annotations. 
 The best match candidate FDSIs are then lined up with their respective gold standard FDSI and a table is produced to compare annotation similarity and identity.
 
