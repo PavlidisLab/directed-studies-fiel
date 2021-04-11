@@ -1,7 +1,7 @@
 # directed-studies-fiel
 
 This repository contains all the R and bash scripts used in my study on the intersection between alternative splicing and gene duplication. Included in the main directory
-is a workflow diagram that explains my methodology. 
+are workflow diagrams that explain my methodology, called Figure2a and Figure2b.
 
 The folders in this repository will be as below:
 
