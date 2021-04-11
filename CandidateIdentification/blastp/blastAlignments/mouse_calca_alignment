@@ -1,0 +1,19 @@
+# BLASTP 2.7.1+
+# Query: Calca|CGRP
+# Database: User specified sequence set (Input: /home/fieldima/blastplus/blastp/blastdb/mouse_calca_sequences.fa)
+# Fields: query acc.ver, query length, subject acc.ver, subject length, alignment length, % query coverage per subject, evalue, % positives, % identity, bit score, gaps
+# 4 hits found
+Calca|CGRP	141	ENSMUST00000032902.10	131	127	85	5.93e-28	59.84	49.606	88.6	10
+Calca|CGRP	141	ENSMUST00000182816.1	157	95	66	4.66e-26	66.32	60.000	84.3	3
+Calca|CGRP	141	ENSMUST00000182044.1	52	53	37	4.10e-15	67.92	66.038	53.5	2
+Calca|CGRP	141	ENSMUST00000041993.2	94	25	18	0.50	48.00	32.000	16.2	1
+# BLASTP 2.7.1+
+# Query: Calca|Calcitonin
+# Database: User specified sequence set (Input: /home/fieldima/blastplus/blastp/blastdb/mouse_calca_sequences.fa)
+# Fields: query acc.ver, query length, subject acc.ver, subject length, alignment length, % query coverage per subject, evalue, % positives, % identity, bit score, gaps
+# 4 hits found
+Calca|Calcitonin	128	ENSMUST00000032902.10	131	131	100	8.44e-62	81.68	73.282	174	4
+Calca|Calcitonin	128	ENSMUST00000182816.1	157	157	100	2.67e-56	68.15	61.146	160	30
+Calca|Calcitonin	128	ENSMUST00000182044.1	52	53	41	2.24e-15	67.92	66.038	53.9	2
+Calca|Calcitonin	128	ENSMUST00000041993.2	94	59	46	2.76e-14	52.54	44.068	52.0	0
+# BLAST processed 2 queries

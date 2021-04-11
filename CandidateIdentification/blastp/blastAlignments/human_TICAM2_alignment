@@ -1,0 +1,27 @@
+# BLASTP 2.7.1+
+# Query: TRAM
+# Database: User specified sequence set (Input: /home/fieldima/blastplus/blastp/blastdb/human_TICAM2_sequences.fa)
+# Fields: query acc.ver, query length, subject acc.ver, subject length, alignment length, % query coverage per subject, evalue, % positives, % identity, bit score, gaps
+# 6 hits found
+TRAM	235	ENST00000621756.1	547	169	67	4.12e-18	50.89	33.136	72.4	22
+TRAM	235	ENST00000248244.6	713	169	67	4.99e-18	50.89	33.136	72.0	22
+TRAM	235	ENST00000392679.5	222	40	17	1.39e-05	55.00	35.000	34.3	0
+TRAM	235	ENST00000392680.6	222	40	17	1.39e-05	55.00	35.000	34.3	0
+TRAM	235	ENST00000479770.1	222	40	17	1.39e-05	55.00	35.000	34.3	0
+TRAM	235	ENST00000392678.7	236	40	17	1.43e-05	55.00	35.000	34.3	0
+# BLASTP 2.7.1+
+# Query: TRIS
+# Database: User specified sequence set (Input: /home/fieldima/blastplus/blastp/blastdb/human_TICAM2_sequences.fa)
+# Fields: query acc.ver, query length, subject acc.ver, subject length, alignment length, % query coverage per subject, evalue, % positives, % identity, bit score, gaps
+# 10 hits found
+TRIS	404	ENST00000621756.1	547	169	39	6.29e-17	50.89	33.136	71.6	22
+TRIS	404	ENST00000248244.6	713	169	39	6.50e-17	50.89	33.136	72.0	22
+TRIS	404	ENST00000392679.5	222	40	10	3.40e-05	55.00	35.000	33.9	0
+TRIS	404	ENST00000392680.6	222	40	10	3.40e-05	55.00	35.000	33.9	0
+TRIS	404	ENST00000479770.1	222	40	10	3.40e-05	55.00	35.000	33.9	0
+TRIS	404	ENST00000392678.7	236	40	10	3.44e-05	55.00	35.000	34.3	0
+TRIS	404	ENST00000421516.3	305	13	3	5.4	69.23	46.154	17.7	0
+TRIS	404	ENST00000650905.2	297	13	3	5.8	69.23	46.154	17.7	0
+TRIS	404	ENST00000396334.8	297	13	3	5.8	69.23	46.154	17.7	0
+TRIS	404	ENST00000417037.8	252	11	3	6.0	72.73	54.545	17.7	0
+# BLAST processed 2 queries

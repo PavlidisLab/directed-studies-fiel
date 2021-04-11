@@ -1,0 +1,23 @@
+# BLASTP 2.7.1+
+# Query: PGAM5S
+# Database: User specified sequence set (Input: /home/fieldima/blastplus/blastp/blastdb/human_PGAM5_sequences.fa)
+# Fields: query acc.ver, query length, subject acc.ver, subject length, alignment length, % query coverage per subject, evalue, % positives, % identity, bit score, gaps
+# 6 hits found
+PGAM5S	255	ENST00000334828.6	255	65	45	2.26e-04	47.69	32.308	28.5	4
+PGAM5S	255	ENST00000334828.6	255	30	45	0.18	53.33	30.000	19.6	0
+PGAM5S	255	ENST00000334828.6	255	25	45	3.0	52.00	28.000	15.8	0
+PGAM5S	255	ENST00000458128.3	255	65	34	2.32e-04	49.23	32.308	28.5	4
+PGAM5S	255	ENST00000458128.3	255	25	34	3.2	52.00	28.000	15.8	0
+PGAM5S	255	ENST00000297283.4	254	65	24	0.083	46.15	24.615	20.8	4
+# BLASTP 2.7.1+
+# Query: PGAM5L
+# Database: User specified sequence set (Input: /home/fieldima/blastplus/blastp/blastdb/human_PGAM5_sequences.fa)
+# Fields: query acc.ver, query length, subject acc.ver, subject length, alignment length, % query coverage per subject, evalue, % positives, % identity, bit score, gaps
+# 6 hits found
+PGAM5L	289	ENST00000334828.6	255	65	33	2.28e-04	47.69	32.308	28.9	4
+PGAM5L	289	ENST00000334828.6	255	10	33	3.6	60.00	50.000	15.8	0
+PGAM5L	289	ENST00000334828.6	255	25	33	3.8	52.00	28.000	15.8	0
+PGAM5L	289	ENST00000458128.3	255	65	30	2.43e-04	49.23	32.308	28.9	4
+PGAM5L	289	ENST00000458128.3	255	25	30	4.1	52.00	28.000	15.4	0
+PGAM5L	289	ENST00000297283.4	254	65	21	0.092	46.15	24.615	20.8	4
+# BLAST processed 2 queries

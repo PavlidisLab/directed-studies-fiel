@@ -1,0 +1,25 @@
+# BLASTP 2.7.1+
+# Query: Rock2
+# Database: User specified sequence set (Input: /home/fieldima/blastplus/blastp/blastdb/mouse_rock2_sequences.fa)
+# Fields: query acc.ver, query length, subject acc.ver, subject length, alignment length, % query coverage per subject, evalue, % positives, % identity, bit score, gaps
+# 7 hits found
+Rock2	1388	ENSMUST00000067947.6	1355	1358	97	0.0	80.49	65.390	1749	29
+Rock2	1388	ENSMUST00000234610.1	1090	1066	77	0.0	79.27	64.353	1308	22
+Rock2	1388	ENSMUST00000234734.1	504	497	55	0.0	87.12	76.258	820	2
+Rock2	1388	ENSMUST00000234734.1	504	82	55	1.2	50.00	24.390	21.6	14
+Rock2	1388	ENSMUST00000234734.1	504	87	55	3.7	47.13	27.586	20.0	12
+Rock2	1388	ENSMUST00000234734.1	504	41	55	6.1	46.34	29.268	19.2	3
+Rock2	1388	ENSMUST00000234734.1	504	85	55	9.2	52.94	21.176	18.5	7
+# BLASTP 2.7.1+
+# Query: Rock2m
+# Database: User specified sequence set (Input: /home/fieldima/blastplus/blastp/blastdb/mouse_rock2_sequences.fa)
+# Fields: query acc.ver, query length, subject acc.ver, subject length, alignment length, % query coverage per subject, evalue, % positives, % identity, bit score, gaps
+# 7 hits found
+Rock2m	1444	ENSMUST00000067947.6	1355	1415	98	0.0	75.90	61.343	1652	86
+Rock2m	1444	ENSMUST00000234610.1	1090	1105	76	0.0	77.74	62.986	1310	31
+Rock2m	1444	ENSMUST00000234734.1	504	497	53	0.0	87.12	76.258	821	2
+Rock2m	1444	ENSMUST00000234734.1	504	82	53	1.2	50.00	24.390	21.6	14
+Rock2m	1444	ENSMUST00000234734.1	504	87	53	3.5	47.13	27.586	20.0	12
+Rock2m	1444	ENSMUST00000234734.1	504	41	53	7.0	46.34	29.268	19.2	3
+Rock2m	1444	ENSMUST00000234734.1	504	85	53	8.6	52.94	21.176	18.9	7
+# BLAST processed 2 queries

@@ -1,0 +1,21 @@
+# BLASTP 2.7.1+
+# Query: DPF3a
+# Database: User specified sequence set (Input: /home/fieldima/blastplus/blastp/blastdb/human_DPF3_sequences.fa)
+# 0 hits found
+# BLASTP 2.7.1+
+# Query: DPF3b
+# Database: User specified sequence set (Input: /home/fieldima/blastplus/blastp/blastdb/human_DPF3_sequences.fa)
+# Fields: query acc.ver, query length, subject acc.ver, subject length, alignment length, % query coverage per subject, evalue, % positives, % identity, bit score, gaps
+# 5 hits found
+DPF3b	378	ENST00000469376.5	190	28	7	6.3	50.00	14.286	18.1	0
+DPF3b	378	ENST00000638973.1	354	16	4	8.4	62.50	37.500	17.7	0
+DPF3b	378	ENST00000371211.6	355	16	4	8.4	62.50	37.500	17.7	0
+DPF3b	378	ENST00000393699.2	354	16	4	8.5	62.50	37.500	17.7	0
+DPF3b	378	ENST00000489301.6	383	16	4	9.6	62.50	37.500	17.7	0
+# BLASTP 2.7.1+
+# Query: AR8
+# Database: User specified sequence set (Input: /home/fieldima/blastplus/blastp/blastdb/human_DPF3_sequences.fa)
+# Fields: query acc.ver, query length, subject acc.ver, subject length, alignment length, % query coverage per subject, evalue, % positives, % identity, bit score, gaps
+# 1 hits found
+AR8	572	ENST00000249389.2	349	43	8	6.0	44.19	20.930	18.9	0
+# BLAST processed 3 queries

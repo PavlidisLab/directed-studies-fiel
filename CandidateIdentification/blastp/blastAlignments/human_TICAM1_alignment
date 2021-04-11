@@ -1,0 +1,28 @@
+# BLASTP 2.7.1+
+# Query: TRIF
+# Database: User specified sequence set (Input: /home/fieldima/blastplus/blastp/blastdb/human_TICAM1_sequences.fa)
+# Fields: query acc.ver, query length, subject acc.ver, subject length, alignment length, % query coverage per subject, evalue, % positives, % identity, bit score, gaps
+# 12 hits found
+TRIF	712	ENST00000427199.3	236	162	21	1.78e-16	50.62	33.333	68.6	22
+TRIF	712	ENST00000392678.7	236	183	26	0.006	36.07	26.776	27.7	6
+TRIF	712	ENST00000479770.1	222	183	26	0.006	36.07	26.776	27.7	6
+TRIF	712	ENST00000392679.5	222	183	26	0.006	36.07	26.776	27.7	6
+TRIF	712	ENST00000392680.6	222	183	26	0.006	36.07	26.776	27.7	6
+TRIF	712	ENST00000651800.2	192	34	5	1.2	41.18	29.412	20.4	0
+TRIF	712	ENST00000650112.2	147	34	5	1.3	41.18	29.412	20.0	0
+TRIF	712	ENST00000652213.1	246	34	5	1.7	41.18	29.412	20.0	0
+TRIF	712	ENST00000421516.3	305	34	5	2.0	41.18	29.412	19.6	0
+TRIF	712	ENST00000650905.2	297	34	5	2.4	41.18	29.412	19.6	0
+TRIF	712	ENST00000396334.8	297	34	5	2.4	41.18	29.412	19.6	0
+TRIF	712	ENST00000417037.8	252	34	5	2.7	41.18	29.412	19.2	0
+# BLASTP 2.7.1+
+# Query: TRIS
+# Database: User specified sequence set (Input: /home/fieldima/blastplus/blastp/blastdb/human_TICAM1_sequences.fa)
+# Fields: query acc.ver, query length, subject acc.ver, subject length, alignment length, % query coverage per subject, evalue, % positives, % identity, bit score, gaps
+# 5 hits found
+TRIS	272	ENST00000392678.7	236	68	24	1.7	45.59	26.471	18.5	4
+TRIS	272	ENST00000479770.1	222	68	24	2.3	45.59	26.471	18.1	4
+TRIS	272	ENST00000392679.5	222	68	24	2.3	45.59	26.471	18.1	4
+TRIS	272	ENST00000392680.6	222	68	24	2.3	45.59	26.471	18.1	4
+TRIS	272	ENST00000488598.5	50	28	10	2.6	57.14	25.000	16.9	0
+# BLAST processed 2 queries

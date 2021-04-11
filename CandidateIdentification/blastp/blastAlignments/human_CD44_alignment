@@ -1,0 +1,13 @@
+# BLASTP 2.7.1+
+# Query: CD44|s
+# Database: User specified sequence set (Input: /home/fieldima/blastplus/blastp/blastdb/human_CD44_sequences.txt)
+# Fields: query acc.ver, query length, subject acc.ver, subject length, alignment length, % query coverage per subject, evalue, % positives, % identity, bit score, gaps
+# 1 hits found
+CD44|s	361	LYVE1|ENSG00000133800|ENST00000256178.8	323	108	29	1.51e-20	53.70	37.037	78.6	2
+# BLASTP 2.7.1+
+# Query: CD44|v3
+# Database: User specified sequence set (Input: /home/fieldima/blastplus/blastp/blastdb/human_CD44_sequences.txt)
+# Fields: query acc.ver, query length, subject acc.ver, subject length, alignment length, % query coverage per subject, evalue, % positives, % identity, bit score, gaps
+# 1 hits found
+CD44|v3	493	LYVE1|ENSG00000133800|ENST00000256178.8	323	108	22	1.92e-20	53.70	37.037	79.3	2
+# BLAST processed 2 queries

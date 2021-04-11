@@ -1,0 +1,22 @@
+# BLASTP 2.7.1+
+# Query: CALCA|Calcitonin
+# Database: User specified sequence set (Input: /home/fieldima/blastplus/blastp/blastdb/human_CALCA_sequences.fa)
+# Fields: query acc.ver, query length, subject acc.ver, subject length, alignment length, % query coverage per subject, evalue, % positives, % identity, bit score, gaps
+# 4 hits found
+CALCA|Calcitonin	141	ENSG00000175868|ENST00000324229.11|CALCB	128	125	85	6.02e-46	74.40	63.200	135	8
+CALCA|Calcitonin	141	ENSG00000175868|ENST00000533448.1|CALCB	128	125	85	6.02e-46	74.40	63.200	135	8
+CALCA|Calcitonin	141	ENSG00000175868|ENST00000523376.5|CALCB	139	125	85	7.77e-46	74.40	63.200	135	8
+CALCA|Calcitonin	141	ENSG00000121351|ENST00000535428.1|IAPP	86	9	6	5.8	66.67	55.556	13.9	0
+# BLASTP 2.7.1+
+# Query: CALCA|CGRP
+# Database: User specified sequence set (Input: /home/fieldima/blastplus/blastp/blastdb/human_CALCA_sequences.fa)
+# Fields: query acc.ver, query length, subject acc.ver, subject length, alignment length, % query coverage per subject, evalue, % positives, % identity, bit score, gaps
+# 7 hits found
+CALCA|CGRP	128	ENSG00000175868|ENST00000324229.11|CALCB	128	128	100	2.03e-81	94.53	87.500	224	1
+CALCA|CGRP	128	ENSG00000175868|ENST00000533448.1|CALCB	128	128	100	2.03e-81	94.53	87.500	224	1
+CALCA|CGRP	128	ENSG00000175868|ENST00000523376.5|CALCB	139	128	100	2.24e-81	94.53	87.500	224	1
+CALCA|CGRP	128	ENSG00000121351|ENST00000537593.1|IAPP	79	68	50	7.63e-12	50.00	39.706	45.8	16
+CALCA|CGRP	128	ENSG00000121351|ENST00000240652.8|IAPP	90	68	50	9.58e-12	50.00	39.706	45.8	16
+CALCA|CGRP	128	ENSG00000121351|ENST00000539393.5|IAPP	90	68	50	9.58e-12	50.00	39.706	45.8	16
+CALCA|CGRP	128	ENSG00000121351|ENST00000535428.1|IAPP	86	48	34	1.41e-10	56.25	47.917	42.7	8
+# BLAST processed 2 queries
