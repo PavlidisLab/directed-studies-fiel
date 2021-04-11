@@ -1,1 +1,7 @@
+# Contents of this folder
 
+## blastp
+Files in this folder include peptide sequences of all family members, peptide sequences of gold standard FDSIs, and the scripts used for running blastp search
+
+## R
+Files in this folder include FDSI_Identification.R, which is an R script used to determine candidate FDSIs, as well as a list of candidate FDSIs.
