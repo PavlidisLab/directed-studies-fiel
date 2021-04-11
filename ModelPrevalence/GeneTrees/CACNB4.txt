@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phyloxml xsi:schemaLocation="http://www.phyloxml.org http://www.phyloxml.org/1.10/phyloxml.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.phyloxml.org">
+  <phylogeny rooted="true" type="gene tree">
+    <clade branch_length="0">
+      <confidence type="duplication_confidence_score">0.005</confidence>
+      <taxonomy>
+        <id>33213</id>
+        <scientific_name>Bilateria</scientific_name>
+        <common_name>Bilateral animals</common_name>
+      </taxonomy>
+      <events>
+        <type>speciation_or_duplication</type>
+        <duplications>1</duplications>
+      </events>
+      <clade branch_length="0.06788">
+        <confidence type="duplication_confidence_score">0.9897</confidence>
+        <taxonomy>
+          <id>7742</id>
+          <scientific_name>Vertebrata</scientific_name>
+          <common_name>Vertebrates</common_name>
+        </taxonomy>
+        <events>
+          <type>speciation_or_duplication</type>
+          <duplications>1</duplications>
+        </events>
+        <clade branch_length="0.031558">
+          <confidence type="duplication_confidence_score">0.3231</confidence>
+          <taxonomy>
+            <id>7742</id>
+            <scientific_name>Vertebrata</scientific_name>
+            <common_name>Vertebrates</common_name>
+          </taxonomy>
+          <events>
+            <type>speciation_or_duplication</type>
+            <duplications>1</duplications>
+          </events>
+          <clade branch_length="0.024623">
+            <taxonomy>
+              <id>7742</id>
+              <scientific_name>Vertebrata</scientific_name>
+              <common_name>Vertebrates</common_name>
+            </taxonomy>
+            <clade branch_length="0.033785">
+              <confidence type="duplication_confidence_score">0.9637</confidence>
+              <taxonomy>
+                <id>7776</id>
+                <scientific_name>Gnathostomata</scientific_name>
+                <common_name>Jawed vertebrates</common_name>
+              </taxonomy>
+              <events>
+                <type>speciation_or_duplication</type>
+                <duplications>1</duplications>
+              </events>
+              <clade branch_length="0.046939">
+                <confidence type="bootstrap">13</confidence>
+                <confidence type="duplication_confidence_score">0</confidence>
+                <taxonomy>
+                  <id>7776</id>
+                  <scientific_name>Gnathostomata</scientific_name>
+                  <common_name>Jawed vertebrates</common_name>
+                </taxonomy>
+                <events>
+                  <type>speciation_or_duplication</type>
+                  <duplications>1</duplications>
+                </events>
+                <property datatype="xsd:int" ref="Compara:dubious_duplication" applies_to="clade">dubious_duplication</property>
+                <clade branch_length="0.079512">
+                  <taxonomy>
+                    <id>186625</id>
+                    <scientific_name>Clupeocephala</scientific_name>
+                    <common_name>Teleost fishes</common_name>
+                  </taxonomy>
+                  <clade branch_length="0.250003">
+                    <name>ENSTRUG00000007932</name>
+                    <taxonomy>
+                      <id>31033</id>
+                      <scientific_name>Takifugu rubripes</scientific_name>
+                      <common_name>Fugu</common_name>
+                    </taxonomy>
+                    <sequence>
+                      <accession source="Ensembl">ENSTRUP00000062886</accession>
+                      <name>cacnb2a-206</name>
+                      <location>10:8166827-8200295</location>
+                      <mol_seq is_aligned="0">MMVNPSNTDRPCFKMHYSDQVNPVGGLQTKSLQRLIFNLKMMVSACVCPQGSADSYTSRPSDSDVSLEEDKEAVRREAERQAQAQLDKAKTKPVAFAVRTNVSYSPSHEDDVPVPGMAISFEAKDFLHVKEKFNNDWWIGRLVKEGCEIGFIPSPVKIENTRILQEQRAKQGKFHSSKLGANSSSSLGEVVPNSRKSTPPSSALDIDATDLDPEDNELPVNLRSPKASPNTVMSPLSKEKRMPFFKKTEHIPPYDVVPSMRPVVLVGPSLKGYEVTDMMQKALFDFLKHRFEGRISITRVTADISLAKRSVLNNPSKHAIIERSNTRSNLAEVQSEIERIFELARTLQLVVLDADTINHPSQLGKTSLAPIIVYVKITSPKVLQRLIKSRGKSQAKHLNVQMVAADKLAQCPPEMFDIILDENQLEDACEHMADYLEAYWRSTHPSSSNPPNPVVAKLSTATLPSNAAPISDVQGSSAEQKGEKALVERKGSREDHHQHHHHHHHHHLQSQDQADADAEVDEEGNEEERPLRTDSSRRNQHVHHRSSSTRTDHHNHHHHHHHHHHHSGRARGLSRQETLDSETPESRESKDSSYIDPRAQLHHQEVEVEEDEDEDEDMGEELPQQQQRYEPPPHRDHNHHHHHHHHRSGPDEAGQSTGHHRSKEREQDHNERNKQRSHHHRPTRDHPHHSYDRDRDRDGEVAPKKRGDTGDWTRDSYIYQ</mol_seq>
+                    </sequence>
+                    <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">takifugu_rubripes</property>
+                  </clade>
+                  <clade branch_length="0.351461">
+                    <name>ENSDARG00000099045</name>
+                    <taxonomy>
+                      <id>7955</id>
+                      <scientific_name>Danio rerio</scientific_name>
+                      <common_name>Zebrafish</common_name>
+                    </taxonomy>
+                    <sequence>
+                      <accession source="Ensembl">ENSDARP00000133097</accession>
+                      <name>cacnb2a-206</name>
+                      <location>7:71792290-71837265</location>
+                      <mol_seq is_aligned="0">MKASWIRLLKRATGNRVKNNIGGSADSYTSRPSDSDVSLEEDKETLRREAERQAQAQLDKAKSKPVAFAVRTNVGYSASSEDDVPVPGTGISFDPKDFLHVKEKFNNDWWIGRLVKEGCDIGFIPSPVKLESSRLRQEQRAKQGRFYSSKSGANSSSSLGDIVSNSRKSTPPSSAVDIDAAGLDAEESDPPPHQRSPKASPNTVISPLAREKRMPFFKKTEHAPPYDVVPSMRPVVLVGPSLKGYEVTDMMQKALFDFLKHRFEGRITITRVAADISLAKRSVLNNPSKHAIIERSNTRSNLAEVQSEIERIFELARTLQLVVLDADTINHPSQLGKTCLAPIIVYIKITSPKVLQRLIKSRGKSQAKHLNVQMVAADKLAQCPSELFDIILDENQLEDACEHMADYLELYWKSTHPPSGAPSTPLLDKLSAVTAAAVACKEQLTNTQPKGTGSDEHADRAAANRTSFYEDYHHHHHPQQQHYQTQKQESFEEEEEEEDDDEENTDQRHDNRDQQNHHKNQHSSSTRTERHHHHRHHHHHHHHRHHHSRTARTLSKQETLESTETQTHSQPQQEEEQESVQPNHHRHHHHHHRHHHRNEKEKEYDHNERNSRQRGKQKSQREHHHHHERRKHYIEQ</mol_seq>
+                    </sequence>
+                    <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">danio_rerio</property>
+                  </clade>
+                </clade>
+                <clade branch_length="0.138755">
+                  <confidence type="bootstrap">27</confidence>
+                  <confidence type="duplication_confidence_score">0</confidence>
+                  <taxonomy>
+                    <id>7776</id>
+                    <scientific_name>Gnathostomata</scientific_name>
+                    <common_name>Jawed vertebrates</common_name>
+                  </taxonomy>
+                  <events>
+                    <type>speciation_or_duplication</type>
+                    <duplications>1</duplications>
+                  </events>
+                  <property datatype="xsd:int" ref="Compara:dubious_duplication" applies_to="clade">dubious_duplication</property>
+                  <clade branch_length="0.080933">
+                    <taxonomy>
+                      <id>8287</id>
+                      <scientific_name>Sarcopterygii</scientific_name>
+                      <common_name>Lobe-finned fish</common_name>
+                    </taxonomy>
+                    <clade branch_length="0.202271">
+                      <taxonomy>
+                        <id>314146</id>
+                        <scientific_name>Euarchontoglires</scientific_name>
+                        <common_name>Primates and Rodents</common_name>
+                      </taxonomy>
+                      <clade branch_length="0.047147">
+                        <name>ENSG00000165995</name>
+                        <taxonomy>
+                          <id>9606</id>
+                          <scientific_name>Homo sapiens</scientific_name>
+                          <common_name>Human</common_name>
+                        </taxonomy>
+                        <sequence>
+                          <accession source="Ensembl">ENSP00000320025</accession>
+                          <name>CACNB2-202</name>
+                          <location>10:18140424-18543557</location>
+                          <mol_seq is_aligned="0">MVQRDMSKSPPTAAAAVAQEIQMELLENVAPAGALGAAAQSYGKGARRKNRFKGSDGSTSSDTTSNSFVRQGSADSYTSRPSDSDVSLEEDREAVRREAERQAQAQLEKAKTKPVAFAVRTNVSYSAAHEDDVPVPGMAISFEAKDFLHVKEKFNNDWWIGRLVKEGCEIGFIPSPVKLENMRLQHEQRAKQGKFYSSKSGGNSSSSLGDIVPSSRKSTPPSSAIDIDATGLDAEENDIPANHRSPKPSANSVTSPHSKEKRMPFFKKTEHTPPYDVVPSMRPVVLVGPSLKGYEVTDMMQKALFDFLKHRFEGRISITRVTADISLAKRSVLNNPSKHAIIERSNTRSSLAEVQSEIERIFELARTLQLVVLDADTINHPAQLSKTSLAPIIVYVKISSPKVLQRLIKSRGKSQAKHLNVQMVAADKLAQCPPELFDVILDENQLEDACEHLADYLEAYWKATHPPSSSLPNPLLSRTLATSSLPLSPTLASNSQGSQGDQRTDRSAPIRSASQAEEEPSVEPVKKSQHRSSSSAPHHNHRSGTSRGLSRQETFDSETQESRDSAYVEPKEDYSHDHVDHYASHRDHNHRDETHGSSDHRHRESRHRSRDVDREQDHNECNKQRSRHKSKDRYCEKDGEVISKKRNEAGEWNRDVYIRQ</mol_seq>
+                        </sequence>
+                        <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">homo_sapiens</property>
+                      </clade>
+                      <clade branch_length="0.102312">
+                        <name>ENSMUSG00000057914</name>
+                        <taxonomy>
+                          <id>10090</id>
+                          <scientific_name>Mus musculus reference (CL57BL6) strain</scientific_name>
+                          <common_name>Mouse</common_name>
+                        </taxonomy>
+                        <sequence>
+                          <accession source="Ensembl">ENSMUSP00000110371</accession>
+                          <name>Cacnb2-203</name>
+                          <location>2:14607899-14992719</location>
+                          <mol_seq is_aligned="0">MVQSDTSKSPPVAAVAQESQMELLESAAPAGALGAQSYGKGARRKNRFKGSDGSTSSDTTSNSFVRQGSADSYTSRPSDSDVSLEEDREAVRREAERQAQAQLEKAKTKPVAFAVRTNVRYSAAQEDDVPVPGMAISFEAKDFLHVKEKFNNDWWIGRLVKEGCEIGFIPSPVKLENMRLQHEQRAKQGKFYSSKSGGNSSSSLGDIVPSSRKSTPPSSAIDIDATGLDAEENDIPANHRSPKPSANSVTSPHSKEKRMPFFKKTEHTPPYDVVPSMRPVVLVGPSLKGYEVTDMMQKALFDFLKHRFEGRISITRVTADISLAKRSVLNNPSKHAIIERSNTRSSLAEVQSEIERIFELARTLQLVVLDADTINHPAQLSKTSLAPIIVYVKISSPKVLQRLIKSRGKSQAKHLNVQMVAADKLAQCPPQESFDVILDENQLEDACEHLADYLEAYWKATHPPSGNLPNPLLSRTLASSTLPLSPTLASNSQGSQGDQRPDRSAPRSASQAEEEPCLEPVKKSQHRSSSATHQNHRSGTGRGLSRQETFDSETQESRDSAYVEPKEDYSHEHVDRYVPHREHNHREETHSSNGHRHRESRHRSRDMGRDQDHNECIKQRSRHKSKDRYCDKEGEVISKRRNEAGEWNRDVYIRQ</mol_seq>
+                        </sequence>
+                        <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">mus_musculus</property>
+                      </clade>
+                    </clade>
+                    <clade branch_length="0.101168">
+                      <name>ENSLACG00000015767</name>
+                      <taxonomy>
+                        <id>7897</id>
+                        <scientific_name>Latimeria chalumnae</scientific_name>
+                        <common_name>Coelacanth</common_name>
+                      </taxonomy>
+                      <sequence>
+                        <accession source="Ensembl">ENSLACP00000017896</accession>
+                        <name>CACNB2-201</name>
+                        <location>JH126879.1:1351772-1478966</location>
+                        <mol_seq is_aligned="0">TKPVAFAVRTNVSYSVAHDDDVPVPGMAISFDAKDFLHVKEKFNNDWWIGRLVKEGCEIGFIPSPVKLENMRLQHEQRAKQGKFYSSKSGGNSSSSLGDMVPSSRRSTPPSSAIDIDATGLDAEENDPPANHRSPKANVNSVTSPHSKEKRMPFFKKTEHIPPYDVVPSMRPVVLVGPSLKGYEVTDMMQKALFDFLKHRFEGRISITRVTADISLAKRSVLNNPSKHAIIERSNTRSSLAEVQSEIERIFELARTLQLVVLDADTINHPAQLSKTSLAPIIVYVKISSPKVLQRLIKSRGKSQAKHLNVQMVAADKLAQCPLELFDVILDENQLEDACEHLADYLEAYWKATHPPSSNPPNPLLSRTLATAALPSSPTPVSNLQGSQGEQKNERPVPERSASREEEEARIEPVKKSHHRTSSSAQYHNHRGAGRGLSRQDTFDSETQDSRDSAYIEPKDEYADEHGDHYDSRREHNHREELHGDNDHRHRESRHRSKDRDREQDHNERNKQRSRHKSRDRYCERDGDVVSKKRNDAGEWNRDVYIRQ</mol_seq>
+                      </sequence>
+                      <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">latimeria_chalumnae</property>
+                    </clade>
+                  </clade>
+                  <clade branch_length="0.129569">
+                    <name>ENSLOCG00000010868</name>
+                    <taxonomy>
+                      <id>7918</id>
+                      <scientific_name>Lepisosteus oculatus</scientific_name>
+                      <common_name>Spotted gar</common_name>
+                    </taxonomy>
+                    <sequence>
+                      <accession source="Ensembl">ENSLOCP00000013336</accession>
+                      <name>CACNB2-202</name>
+                      <location>LG9:31229012-31320706</location>
+                      <mol_seq is_aligned="0">MKATWIRLLKRAKGGRLKNSDICGSADSYTSRPSDSDVSLEEDREAVRREAERQAQAQLEKAKTKPVAFAVRTNVNYSAAHDDEVPVPGMAISFEAKDFLHVKEKFNNDWWIGRLVKEGCEIGFIPSPVKLENMRIQHEQRVKQGKFYSSKSGGNSSSSLGEVVPSSRKSTPPSSAIDIDATGLDPEENEIPANHRSPKASPNSVMSPLSKEKRMPFFKKTEHISPYDVVPSMRPVVLVGPSLKGYEVTDMMQKALFDFLKHRFEGRISITRVTADISLAKRSVLNNPSKHAIIERSNTRSSLAEVQSEIERIFELARTLQLVVLDADTINHPAQLGKTSLAPIIVYVKISSPKVLQRLIKSRGKSQAKHLNVQMVAADKLAQCPPEMFDVILDENQLEDACEHMADYLEAYWKATHPASCNPPNPLLARTLAAAVLPASPASASNLQSSGGEQKTEKSAPEQSGSQEEEQEEPRTEPSKKSQHRSSSSKTEHHNHHHHHHHKGGTGNKALPRQETFDSETQESRDSAYIEPKEELTEEQGDSYESHNHRDEPHVGGDHKHRESRHRPKDRDREQDHNERNKQRSHHKSREHYYERDGEVVSKKRNEASEWNRDVYIHQ</mol_seq>
+                    </sequence>
+                    <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">lepisosteus_oculatus</property>
+                  </clade>
+                </clade>
+              </clade>
+              <clade branch_length="0.082152">
+                <confidence type="duplication_confidence_score">0.0053</confidence>
+                <taxonomy>
+                  <id>117571</id>
+                  <scientific_name>Euteleostomi</scientific_name>
+                  <common_name>Bony vertebrates</common_name>
+                </taxonomy>
+                <events>
+                  <type>speciation_or_duplication</type>
+                  <duplications>1</duplications>
+                </events>
+                <clade branch_length="0.017168">
+                  <taxonomy>
+                    <id>117571</id>
+                    <scientific_name>Euteleostomi</scientific_name>
+                    <common_name>Bony vertebrates</common_name>
+                  </taxonomy>
+                  <clade branch_length="0.051191">
+                    <taxonomy>
+                      <id>41665</id>
+                      <scientific_name>Neopterygii</scientific_name>
+                      <common_name>Ray-finned fishes</common_name>
+                    </taxonomy>
+                    <clade branch_length="0.041747">
+                      <taxonomy>
+                        <id>186625</id>
+                        <scientific_name>Clupeocephala</scientific_name>
+                        <common_name>Teleost fishes</common_name>
+                      </taxonomy>
+                      <clade branch_length="0.190597">
+                        <name>ENSTRUG00000016484</name>
+                        <taxonomy>
+                          <id>31033</id>
+                          <scientific_name>Takifugu rubripes</scientific_name>
+                          <common_name>Fugu</common_name>
+                        </taxonomy>
+                        <sequence>
+                          <accession source="Ensembl">ENSTRUP00000042129</accession>
+                          <name>cacnb1-201</name>
+                          <location>5:12007759-12028112</location>
+                          <mol_seq is_aligned="0">MVQKSSMSRTPSTSTQEIQMDMFDHHPHTQGKYAKRKSRFKRSDGSTSSDTTSNSFVRQGSADSYTSRPSDSDVSLEEDPEALRKEADRQALATLEKAKTKPVAFAVRTNVGYNPGPSDDVPVQGMAISFEAKDFLHIKEKYNNDWWIGRLVKEGCEVGFIPSPVKLENTRQLQEQRMRQNRLSSSKSGGSSSLDVTTGTRRPTPPGTAHVDMSTVTFDADPLDLDAEEPPEFQGDPRSPKAMSGSVTSPQANVHRLPFFKKMEHVPPYDVVPSMRPIILVGPSLKGYEVTDMMQKALFDFLKHKFEGRISITRVTADISLAKRSVLNNPSKHTIIERSSTRSSLAEVQSEIERIFELARTLQLVALDADTINHPSQLAKTSLAPIIVYIKIASPKVLQRLIKSRGKSQAKHLNVQMVAADKLAQCPPELFDIILDENQLEDACEHLADYLEAYWKATHPPSSNPPNPLLNRTMATAALAASPEPVSNLQGPYLVHGEQKEEGSLTECGGSGSLHDYQTDLGAKPQQQQQAHMRSSRGQLRGGSGRGLSRQDTFDSETQGSRDSAYTEAGDSCMDIETDPYEEPEPYRGGGSRLHLAQHHGRQASWEDEGAEPDQENLNHPPMPSQPQPHGRAKLRERYCQDPVDTGANKSRNKNQDDWGRDVYIR</mol_seq>
+                        </sequence>
+                        <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">takifugu_rubripes</property>
+                      </clade>
+                      <clade branch_length="0.258374">
+                        <name>ENSDARG00000002167</name>
+                        <taxonomy>
+                          <id>7955</id>
+                          <scientific_name>Danio rerio</scientific_name>
+                          <common_name>Zebrafish</common_name>
+                        </taxonomy>
+                        <sequence>
+                          <accession source="Ensembl">ENSDARP00000057158</accession>
+                          <name>cacnb1-202</name>
+                          <location>3:16157120-16227683</location>
+                          <mol_seq is_aligned="0">MVQEGNMSRTPSTSTQEIQMDMFDHHGSHAQGKYAKRKSRFKRSDGSTSSDTTSNSFVRQGSADSYTSRPSDSDVSLEEDPEALRKEADRQALATLEKAKTKPVAFAVRTNVGYNPGPNDDVPVQGMAISFEPKDFLHIKEKYNNDWWIGRLVKEGCEVGFIPSPVKLESTRQLQEQRMRQNRLSSSKSGGSSSLDVATGARRPTPPGTGGPAKQKQKSMEHVPPYDVVPSMRPIILVGPSLKGYEVTDMMQKALFDFLKHKFEGRISITRVTADISLAKRSVLNNPSKHTIIERSSTRSSLAEVQSEIERIFELARTLQLVALDADTINHPSQLAKTSLAPIIVYIKIASPKVLQRLIKSRGKSQAKHLNVQMVAADKLAQCPPELFDIILDENQLEDACEHLAEYLEAYWKATHPPSSNPPNPLLNRTMATAALAASPEPVSNLQGPFLVHGEQKREMPERGGLQDYQSDLSGKQPLRSSRSQLQTGSRGLSRQDTFDSETQGSRDSAYTDDMETDPYEEPDPCRSYRLNPAHHAPRQASWEDEGAEPDQENLNMVPPPANQHQRGRGKLRERYCQDAEAGGATTGRNHNQEEWSRDVYIR</mol_seq>
+                        </sequence>
+                        <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">danio_rerio</property>
+                      </clade>
+                    </clade>
+                    <clade branch_length="0.094795">
+                      <name>ENSLOCG00000012811</name>
+                      <taxonomy>
+                        <id>7918</id>
+                        <scientific_name>Lepisosteus oculatus</scientific_name>
+                        <common_name>Spotted gar</common_name>
+                      </taxonomy>
+                      <sequence>
+                        <accession source="Ensembl">ENSLOCP00000015763</accession>
+                        <name>cacnb1-201</name>
+                        <location>LG15:5847228-5897671</location>
+                        <mol_seq is_aligned="0">MVQKSSMSRTPSTSTQEIQMDIFDNPSSQGKYVKRKSRFKRSDGSTSSDTTSNSFVRQGSADSYTSRPSDSDVSLEEDREALRKEADRQALATLEKAKTKPVAFAVRTNVGYNSGPNDDVPVQGMAISFEAKDFLHIKEKYNNDWWIGRLVKEGCEVGFIPSPVKLENTRLQQEQRMRQSRLSSSKSGGNSSSSLGDVATGTRRPTPPATAHVEISTVGFDVDPLDLDAEEPSEPPIDSRSPKTSVSSVTSPQANAKRIPFFKKMEHVPPYDVVPSMRPIILVGPSLKGYEVTDMMQKALFDFLKHRFDGRISITRVTADISLAKRSVLNNPSKHTIIERSSTRSSLAEVQSEIERIFELARTLQLVALDADTINHPSQLAKTSLAPIIVYIKIASPKVLQRLIKSRGKSQAKHLNVQMVAADKLAQCPPELFDIILDENQLEDACEHLADYLEAYWKATHPPSSNPPHPLLNRTMATAALAASPAPVSNLQGPYLVHGEQKRDGPLSDRTGLHDYQGDPGGKQHHHQLYLRASRAQSRGGGGRGLSRQDTFDSETQGSRDSAYTEAGDSCMDIETDPYEEPDPYRGGARLHLSQHQHRQASWEDEGAEPDQENLNRAALHEQQNRAKVRERYCQSQEPSEPNLGRNKNQEDWGRDVYIR</mol_seq>
+                      </sequence>
+                      <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">lepisosteus_oculatus</property>
+                    </clade>
+                  </clade>
+                  <clade branch_length="0.224589">
+                    <name>ENSLACG00000015132</name>
+                    <taxonomy>
+                      <id>7897</id>
+                      <scientific_name>Latimeria chalumnae</scientific_name>
+                      <common_name>Coelacanth</common_name>
+                    </taxonomy>
+                    <sequence>
+                      <accession source="Ensembl">ENSLACP00000017176</accession>
+                      <name>CACNB1-201</name>
+                      <location>JH127045.1:1180480-1224777</location>
+                      <mol_seq is_aligned="0">QGSADSYTSRPSDSDVSLEEDREALRKEAERQALAQLEKAKVRTPNHSVRTNVGYNPSPNDDVPVQGTAISFEPKDFLHIKEKYNNDWWIGRLVKEGCEVGFIPSPVKLESMRLQQEQRMRQSRLSSSKSGGNSSSSLGDVVTGMRRPTPPTSGNLDLPNLAYDLDVLELDAEEADYQGNHRSPKTSVSSVTSSQSNVKRIPFFKKTEHIPPYDVVPSMRPIILVGPSLKGYEVTDMMQKALFDFLKHRFDGRISITRVTADISLAKRSVLNNPSKHTIIERSSTRSSLAEVQSEIERIFELARTLQLVALDADTINHPTQLAKTSLAPIIIYIKIASPKVLQRLIKSRGKSQAKHLNVQMVAADKLAQCPPEMFDIILDENQLEDACEHLADYLEAYWKATHPPSSNPPNPLLNRTMATAALAASPAPVSNLQVQVLTSLKRNLGFWGMRETREEDADAGPKEEEHAVGPYLVHGEHKHDFPLSERTSLHDFQSDPAKQSYLRSARLQGRGITRGLSREDTFDSEMQGSRDSAYTEPGDSCMDIETDPYEEQELDANRAGTYRDRTGHQLRQGSWEDMEPDQENQNQQLKNRARARDRYCQDEEDVLPRNKNEIEGWGRDVYIR</mol_seq>
+                    </sequence>
+                    <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">latimeria_chalumnae</property>
+                  </clade>
+                </clade>
+                <clade branch_length="0.213053">
+                  <confidence type="duplication_confidence_score">0</confidence>
+                  <taxonomy>
+                    <id>117571</id>
+                    <scientific_name>Euteleostomi</scientific_name>
+                    <common_name>Bony vertebrates</common_name>
+                  </taxonomy>
+                  <events>
+                    <type>speciation_or_duplication</type>
+                    <duplications>1</duplications>
+                  </events>
+                  <property datatype="xsd:int" ref="Compara:dubious_duplication" applies_to="clade">dubious_duplication</property>
+                  <clade branch_length="0.059208">
+                    <name>ENSG00000067191</name>
+                    <taxonomy>
+                      <id>9606</id>
+                      <scientific_name>Homo sapiens</scientific_name>
+                      <common_name>Human</common_name>
+                    </taxonomy>
+                    <sequence>
+                      <accession source="Ensembl">ENSP00000377840</accession>
+                      <name>CACNB1-202</name>
+                      <location>17:39173453-39197703</location>
+                      <mol_seq is_aligned="0">MVQKTSMSRGPYPPSQEIPMEVFDPSPQGKYSKRKGRFKRSDGSTSSDTTSNSFVRQGSAESYTSRPSDSDVSLEEDREALRKEAERQALAQLEKAKTKPVAFAVRTNVGYNPSPGDEVPVQGVAITFEPKDFLHIKEKYNNDWWIGRLVKEGCEVGFIPSPVKLDSLRLLQEQKLRQNRLGSSKSGDNSSSSLGDVVTGTRRPTPPASAKQKQKSTEHVPPYDVVPSMRPIILVGPSLKGYEVTDMMQKALFDFLKHRFDGRISITRVTADISLAKRSVLNNPSKHIIIERSNTRSSLAEVQSEIERIFELARTLQLVALDADTINHPAQLSKTSLAPIIVYIKITSPKVLQRLIKSRGKSQSKHLNVQIAASEKLAQCPPEMFDIILDENQLEDACEHLAEYLEAYWKATHPPSSTPPNPLLNRTMATAALAASPAPVSNLQGPYLASGDQPLERATGEHASMHEYPGELGQPPGLYPSSHPPGRAGTLRALSRQDTFDADTPGSRNSAYTELGDSCVDMETDPSEGPGLGDPAGGGTPPARQGSWEDEEEDYEEELTDNRNRGRNKARYCAEGGGPVLGRNKNELEGWGRGVYIR</mol_seq>
+                    </sequence>
+                    <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">homo_sapiens</property>
+                  </clade>
+                  <clade branch_length="0.089963">
+                    <name>ENSMUSG00000020882</name>
+                    <taxonomy>
+                      <id>10090</id>
+                      <scientific_name>Mus musculus reference (CL57BL6) strain</scientific_name>
+                      <common_name>Mouse</common_name>
+                    </taxonomy>
+                    <sequence>
+                      <accession source="Ensembl">ENSMUSP00000099433</accession>
+                      <name>Cacnb1-203</name>
+                      <location>11:97892334-97913860</location>
+                      <mol_seq is_aligned="0">MVQKSGMSRGPYPPSQEIPMEVFDPSPQGKYSKRKGRFKRSDGSTSSDTTSNSFVRQGSAESYTSRPSDSDVSLEEDREALRKEAERQALAQLEKAKTKPVAFAVRTNVGYNPSPGDEVPVQGVAITFEPKDFLHIKEKYNNDWWIGRLVKEGCEVGFIPSPVKLDSLRLLQEQTLRQNRLSSSKSGDNSSSSLGDVVTGTRRPTPPASGNEMTNFAFELDPLELEEEEAELGEHGGSAKTSVSSVTTPPPHGKRIPFFKKTEHVPPYDVVPSMRPIILVGPSLKGYEVTDMMQKALFDFLKHRFDGRISITRVTADISLAKRSVLNNPSKHIIIERSNTRSSLAEVQSEIERIFELARTLQLVALDADTINHPAQLSKTSLAPIIVYIKITSPKVLQRLIKSRGKSQSKHLNVQIAASEKLAQCPPEMFDIILDENQLEDACEHLAEYLEAYWKATHPPSSTPPNPLLNRTMATAALAASPAPVSNLQVQVLTSLRRNLSFWGGLEASPRGGDAVAQPQEHAMGPYLASGDQPLDRATGEHASVHEYPGELGQPPGLYPSNHPPGRAGTLRALSRQDTFDADTPGSRNSAYTEPGDSCVDMETDPSEGPGPGDPAGGGTPPARQGSWEDEEDYEEEMTDNRNRGRNKARYCAEGGGPVLGRNKNELEGWGQGVYIR</mol_seq>
+                    </sequence>
+                    <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">mus_musculus</property>
+                  </clade>
+                </clade>
+              </clade>
+            </clade>
+            <clade branch_length="0.354228">
+              <name>ENSPMAG00000008577</name>
+              <taxonomy>
+                <id>7757</id>
+                <scientific_name>Petromyzon marinus</scientific_name>
+                <common_name>Lamprey</common_name>
+              </taxonomy>
+              <sequence>
+                <accession source="Ensembl">ENSPMAP00000009462</accession>
+                <name>CACNB1-201</name>
+                <location>GL476376:662057-715210</location>
+                <mol_seq is_aligned="0">QGSADSYNSRPSDSDNSLEEEREHLKREAEKQALAQLEKAKTKPVAFAVRTNVSYNGFSDEDAPVHGTAISFDGKDFLHIKEKYNNDWWIGRLVKEGCEIGFIPSPVKLELIRQQLEQRARQGRFHAGRPGGNSPSSRGDLMSGPFHSTPPLSGVKHVDVDATASEATDSDPQPSLRSLKSRVRPLACTNAKHKRYHFFKKLENVPPYDVVPSMRPVVLVGPSLKGYEVTDMMQKALFDFLKHRFEGRISITRVTADISLAKRSVLNNPSKRAIIERSNTRSSIGHSRSCPRGAAEVQSEIERIFELARTLQLVVLDADTINHPTQLAKTSLAPIIVYVKVASPKVLQRLIKSRGKSQSKHLNVQMVASDKLTQCPQDLFDVILDENQLEDACEHLSEYLEAYWRATHPPSANPPNPLLERTIGNTAPVSSVQSKSPRGGQGEELTDISTPERTSAEPSETDPRRPYSNHHHQHHHQHQQHHHNNGRMGSLARQDTFDSETQDSRDSAYTEEQGSRHRSREREYADEESTPPPMTSNDVRQQTSSSSRGSWERNRGRERSREVDRNERNRSRDRSHDRYYEPDGDSGGGGGNSSDAWAQDMYVRP</mol_seq>
+              </sequence>
+              <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">petromyzon_marinus</property>
+            </clade>
+          </clade>
+          <clade branch_length="0.058348">
+            <confidence type="bootstrap">11</confidence>
+            <taxonomy>
+              <id>7742</id>
+              <scientific_name>Vertebrata</scientific_name>
+              <common_name>Vertebrates</common_name>
+            </taxonomy>
+            <clade branch_length="0.279684">
+              <confidence type="bootstrap">37</confidence>
+              <taxonomy>
+                <id>186625</id>
+                <scientific_name>Clupeocephala</scientific_name>
+                <common_name>Teleost fishes</common_name>
+              </taxonomy>
+              <clade branch_length="0.25867">
+                <name>ENSDARG00000055565</name>
+                <taxonomy>
+                  <id>7955</id>
+                  <scientific_name>Danio rerio</scientific_name>
+                  <common_name>Zebrafish</common_name>
+                </taxonomy>
+                <sequence>
+                  <accession source="Ensembl">ENSDARP00000109412</accession>
+                  <name>cacnb2b-203</name>
+                  <location>2:31475772-31519662</location>
+                  <mol_seq is_aligned="0">MPPKKKGSADRQDTGATEEKEKNAQVQLDKAKYKPVAFAVRTNFTYTPADDDNVPIPGHGVSFEAKDFLHIKEKFNNDWWIGRPVKEGGEVGFIPSPVNLETILIRREVQARKAAKALANKAASAAKDDLNAKKAAPPQTVQQVKKKSGEQLAAYDVVPSMRPVVLMGPSLKGYEVTDMMQKALFDYLKHRFEGRITITRVTADIALAKRSILNNPSKHAIMDRSNTRTNLDAAAQIQGEVERIFELARSLQLVVLDADTINHPLQLSKTSLAPILVYVKISSPKVLTRLIKTRGKSQTKHLNVQMVAADKLAQCPNEMFDVILDENQLSDACEHIADYLEAYWRATHPPEMEPPNPMLEKLAENTLPTSPTPAKKT</mol_seq>
+                </sequence>
+                <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">danio_rerio</property>
+              </clade>
+              <clade branch_length="0.336461">
+                <name>ENSTRUG00000008881</name>
+                <taxonomy>
+                  <id>31033</id>
+                  <scientific_name>Takifugu rubripes</scientific_name>
+                  <common_name>Fugu</common_name>
+                </taxonomy>
+                <sequence>
+                  <accession source="Ensembl">ENSTRUP00000071361</accession>
+                  <name>cacnb2b-202</name>
+                  <location>22:5470179-5493357</location>
+                  <mol_seq is_aligned="0">MSFWQGERQDLDAAEERNAQVQLEKAKYKPVAFAVRCNFSYTPADDDNVPVPGHAVTFEARDFLHVKEKFNNDWWIGRPVKEDGVVGFVPSPVNLETILIRREVQARKAAKALASKAASQAALDMNSKKYTPPSQANQQVKKKPGEQVAMYDVVPTMRPVVLMGPSLKGLEVTDMMQKALFDFLKHRFEGRITITRVTADISLAKRSILNNPGKKALMDRSNTRSNLAQIQGEVERIFELARSLQLVVLDADTVNHPLQVAKTSLAPILVYVKISSPKVLTRLIKTRGKSQSKHLNVQLVAADKLAQCPPEMFDVILDENQLTDACEHIADYLESYWRATHPPEMEPANALVAQLAENTLPTSPSAIPDGQKTKKSAAPKRKGSQENHLDQEAPSAPSQDQRDEEGQREEEEQLLRTEPKRPQHTHHHHHHNHRRSEHHSQTQHNHTSSGQGAPGQRLRHRHLHVERDGEVGEAAQADKAETRYDDQQHNSNHHYHHNHHRHHHRGYSQPHVGEDYDREHNERNRQHRHHNPARTPHSDYHSVQNHHSYHHYHGRDRDRDRDRDRDRDRDRGRDRDRDRERDRDRERDRDRDSNRDREGHKDRVDRDRDARHRHRDS</mol_seq>
+                </sequence>
+                <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">takifugu_rubripes</property>
+              </clade>
+            </clade>
+            <clade branch_length="0.509626">
+              <name>ENSPMAG00000003174</name>
+              <taxonomy>
+                <id>7757</id>
+                <scientific_name>Petromyzon marinus</scientific_name>
+                <common_name>Lamprey</common_name>
+              </taxonomy>
+              <sequence>
+                <accession source="Ensembl">ENSPMAP00000003468</accession>
+                <location>GL476874:42338-69702</location>
+                <mol_seq is_aligned="0">EKQARLQLHGAGAKPVAFSVRTNVAFHCANQKDVPVPGAALSFEAHDFLHITEKYSSEWWIGRAVMEGAPLGFIPSPGRLEQHARHALLHPRCHNCVTSVSITAVRRRAAAEPSTRRQPRPMVGDSSCNPLLSLCLCVCLCVSVYNLSEPTLQEISRKQPSINKNAEGIPPYDVVPSMRPVVLVGPSLKGYEITDMMQKALFDFLKHRFEGRISITRVTADVSLARRSLAINPSRHAPLERTTARATSAEVQGEVERIFELARTLQLVVLDADTINHPAQLAHSSLAPMLVYVKISSPKVLHRLIKSRGKTQSKYLNMQMVAAEKLAQCPSDLFDLILDENQLDEACEHLADFLEMYWRAAHPTCGSGTPAAVAAIPVSMPPPSNPEHSVTSLKRMLNVTGS</mol_seq>
+              </sequence>
+              <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">petromyzon_marinus</property>
+            </clade>
+          </clade>
+        </clade>
+        <clade branch_length="0.05022">
+          <confidence type="duplication_confidence_score">0.9689</confidence>
+          <taxonomy>
+            <id>7776</id>
+            <scientific_name>Gnathostomata</scientific_name>
+            <common_name>Jawed vertebrates</common_name>
+          </taxonomy>
+          <events>
+            <type>speciation_or_duplication</type>
+            <duplications>1</duplications>
+          </events>
+          <clade branch_length="0.099352">
+            <taxonomy>
+              <id>117571</id>
+              <scientific_name>Euteleostomi</scientific_name>
+              <common_name>Bony vertebrates</common_name>
+            </taxonomy>
+            <clade branch_length="0.029467">
+              <confidence type="bootstrap">5</confidence>
+              <taxonomy>
+                <id>8287</id>
+                <scientific_name>Sarcopterygii</scientific_name>
+                <common_name>Lobe-finned fish</common_name>
+              </taxonomy>
+              <clade branch_length="0.303997">
+                <taxonomy>
+                  <id>314146</id>
+                  <scientific_name>Euarchontoglires</scientific_name>
+                  <common_name>Primates and Rodents</common_name>
+                </taxonomy>
+                <clade branch_length="0.037997">
+                  <name>ENSG00000167535</name>
+                  <taxonomy>
+                    <id>9606</id>
+                    <scientific_name>Homo sapiens</scientific_name>
+                    <common_name>Human</common_name>
+                  </taxonomy>
+                  <sequence>
+                    <accession source="Ensembl">ENSP00000301050</accession>
+                    <name>CACNB3-201</name>
+                    <location>12:48813794-48828941</location>
+                    <mol_seq is_aligned="0">MYDDSYVPGFEDSEAGSADSYTSRPSLDSDVSLEEDRESARREVESQAQQQLERAKHKPVAFAVRTNVSYCGVLDEECPVQGSGVNFEAKDFLHIKEKYSNDWWIGRLVKEGGDIAFIPSPQRLESIRLKQEQKARRSGNPSSLSDIGNRRSPPPSLAKQKQKQAEHVPPYDVVPSMRPVVLVGPSLKGYEVTDMMQKALFDFLKHRFDGRISITRVTADLSLAKRSVLNNPGKRTIIERSSARSSIAEVQSEIERIFELAKSLQLVVLDADTINHPAQLAKTSLAPIIVFVKVSSPKVLQRLIRSRGKSQMKHLTVQMMAYDKLVQCPPESFDVILDENQLEDACEHLAEYLEVYWRATHHPAPGPGLLGPPSAIPGLQNQQLLGERGEEHSPLERDSLMPSDEASESSRQAWTGSSQRSSRHLEEDYADAYQDLYQPHRQHTSGLPSANGHDPQDRLLAQDSEHNHSDRNWQRNRPWPKDSY</mol_seq>
+                  </sequence>
+                  <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">homo_sapiens</property>
+                </clade>
+                <clade branch_length="0.115802">
+                  <name>ENSMUSG00000003352</name>
+                  <taxonomy>
+                    <id>10090</id>
+                    <scientific_name>Mus musculus reference (CL57BL6) strain</scientific_name>
+                    <common_name>Mouse</common_name>
+                  </taxonomy>
+                  <sequence>
+                    <accession source="Ensembl">ENSMUSP00000155514</accession>
+                    <name>Cacnb3-206</name>
+                    <location>15:98528721-98542410</location>
+                    <mol_seq is_aligned="0">MYDDSYVPGFEDSEAGSADSYTSRPSLDSDVSLEEDRESARREVESQAQQQLERAKHKPVAFAVRTNVSYCGVLDEECPVQGSGVNFEAKDFLHIKEKYSNDWWIGRLVKEGGDIAFIPSPQRLESIRLKQEQKARRSGNPSSLGDIGNRRSPPPSLAKQKQKQAEHVPPYDVVPSMRPVVLVGPSLKGYEVTDMMQKALFDFLKHRFDGRISITRVTADLSLAKRSVLNNPGKRTIIERSSARSSIAEVQSEIERIFELAKSLQLVVLDADTINHPAQLAKTSLAPIIVFVKVSSPKVLQRLIRSRGKSQMKHLTVQMMAYDKLVQCPPESFDVILDENQLEDACEHLAEYLEVYWRATHHPAPGPGLLGPPSAIPGLQNQQLLGERVEEHSPLERDSLMPSDEASESSRQAWTGSSQRSSRHLEEDYADAYQDLYQPHRQHTSGLPSANGHDPQDRLLAQDSEHDHNDRNWQRNRPWPKDSY</mol_seq>
+                  </sequence>
+                  <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">mus_musculus</property>
+                </clade>
+              </clade>
+              <clade branch_length="0.265339">
+                <name>ENSLACG00000017043</name>
+                <taxonomy>
+                  <id>7897</id>
+                  <scientific_name>Latimeria chalumnae</scientific_name>
+                  <common_name>Coelacanth</common_name>
+                </taxonomy>
+                <sequence>
+                  <accession source="Ensembl">ENSLACP00000019376</accession>
+                  <name>CACNB3-201</name>
+                  <location>JH126659.1:1880610-1904569</location>
+                  <mol_seq is_aligned="0">LAHIFHGSSHSFPQGSADSCTSRPSLDSDVSLEEDREVVRRDAEQHALLQLERAKSKPVAFAVRTNVSYCGALDEDCPVQGAAINFEAKDFLHIKEKHNNDWWIGRLVKEGSDITFIPSPSWLEAVRLKHEQKARRPGNPSPPLSADIRERRNSEVLLAKQKPKQTEHVPPYDVVPSMRPVVLVGPSLKGYEVTDMMQKALFDFLKHRFDGRISITRVTADLSLAKRSILNNPGKRAIIPTPNQRPSLAEVQSEIERIFELAKTLQLVVLDADTINHPAQLSKTSLAPIIVYVKVSSPKVLQRLVKSRGKSQSKHLNVQMMAADKLAQCPPELFDVILDENQLEDACEHLAEYLEVYWRATHHPLHPLVGQNLMTPPSAVSSLQDQHGERGEEHSSIEQDSLMHSDETSETSQKTWHLSSQRSSQHLEEEYSDAYQDLYKPHRNHNSVLHTTNGHDPQDRLLDRDSEQNHNERNRQRNRPWPRDSY</mol_seq>
+                </sequence>
+                <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">latimeria_chalumnae</property>
+              </clade>
+            </clade>
+            <clade branch_length="0.119573">
+              <taxonomy>
+                <id>41665</id>
+                <scientific_name>Neopterygii</scientific_name>
+                <common_name>Ray-finned fishes</common_name>
+              </taxonomy>
+              <clade branch_length="0.019966">
+                <confidence type="duplication_confidence_score">0.9365</confidence>
+                <taxonomy>
+                  <id>1489341</id>
+                  <scientific_name>Osteoglossocephalai</scientific_name>
+                </taxonomy>
+                <events>
+                  <type>speciation_or_duplication</type>
+                  <duplications>1</duplications>
+                </events>
+                <clade branch_length="0.069029">
+                  <confidence type="bootstrap">10</confidence>
+                  <taxonomy>
+                    <id>186625</id>
+                    <scientific_name>Clupeocephala</scientific_name>
+                    <common_name>Teleost fishes</common_name>
+                  </taxonomy>
+                  <clade branch_length="0.168456">
+                    <name>ENSDARG00000001881</name>
+                    <taxonomy>
+                      <id>7955</id>
+                      <scientific_name>Danio rerio</scientific_name>
+                      <common_name>Zebrafish</common_name>
+                    </taxonomy>
+                    <sequence>
+                      <accession source="Ensembl">ENSDARP00000081714</accession>
+                      <name>cacnb3a-201</name>
+                      <location>23:14097508-14180307</location>
+                      <mol_seq is_aligned="0">MSKSSADPLSGVESASQSHYFQLPRKLPKRKGRFKRSDGSTSSDTTSSFIKRQGSADSYTSRPSDSDLSAEEDREAYRREAERQAQLQLERAKSKPVAFAVKTNVNYCGALDEECPVQGAAINFEAKDFLHIKEKYNNDWWIGRLVKEGADISFIPSPLRLEAMRIKQEQKQQRKSGNSSSSLGDMVSGGWRSTPPSAAKQKLKQTEHIPPYDVVPSMRPVVLVGPSLKGYEVTDMMQKALFDFLKHRFDGRISITRVTADLSLAKRSVLNKRPIMERSNTRTSLAEVQSEIERIFELAKTLQLVILDADTINHPAQLAKTSLAPIIVYVKVTSPKVLQRLIKSRGKSQSKHLNVQMMAADKLTQCPPEMFDVILDENQLEDACEHLAEYLEVYWRATHLPGTTPLNPLLEQNLMTPPSAISSLQFSETQELIE</mol_seq>
+                    </sequence>
+                    <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">danio_rerio</property>
+                  </clade>
+                  <clade branch_length="0.289587">
+                    <name>ENSTRUG00000028850</name>
+                    <taxonomy>
+                      <id>31033</id>
+                      <scientific_name>Takifugu rubripes</scientific_name>
+                      <common_name>Fugu</common_name>
+                    </taxonomy>
+                    <sequence>
+                      <accession source="Ensembl">ENSTRUP00000075680</accession>
+                      <name>CAB3B-202</name>
+                      <location>3:14011163-14022456</location>
+                      <mol_seq is_aligned="0">MVQVKMSKSPVDPLSAVETGSQSNYFQLPRKLPKRKSRFKRSDGSTSSDTTSSFIKRQGSADSYTSRPSDSDLSAEEDREAYRREAERQAQLQLDRAKSKPVAFAVKTNVSYCGALDEDCPVQGAAVNFDAKDFLHIKEKYNNDWWIGRLVKEGADIAFIPSPLRLEAMRLKQEQKQRKAGGNSSSLGDMVTGSWRTTPPSAGESKQKQKQEHVPPYDVVPSMRPVVLVGPSLKGYEVTDMMQKALFDFLKHRFEGRISITRVTADLSLAKRSVLNKRPIMERSNTRSSLAEVQSEIERIFELAKSLQLVILDADTINHPAQLAKTSLAPIVVYVKVSSPKVLQRLVKSRGKSQSKHLNVQMMAADKLSQCPPDMFDVILDENQLEDACEHLAEYLEVYWRATHLPGNTPLNPLLDQSLMTPPSAMSSLQNKNQSQPHEVVDLEADEEEEEEVGEEAHSPLEQDSLMPSDEASDSLSRGQRGSPSTRGGEEEEEGEDEYTSPRHTRTYRDMYPPHHGHTGAAHSANGHESQDRLLRHEAQQGHNQRNSRQRSRPWPRDTY</mol_seq>
+                    </sequence>
+                    <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">takifugu_rubripes</property>
+                  </clade>
+                </clade>
+                <clade branch_length="0.108309">
+                  <taxonomy>
+                    <id>186625</id>
+                    <scientific_name>Clupeocephala</scientific_name>
+                    <common_name>Teleost fishes</common_name>
+                  </taxonomy>
+                  <clade branch_length="0.266816">
+                    <confidence type="bootstrap">84</confidence>
+                    <confidence type="duplication_confidence_score">1</confidence>
+                    <taxonomy>
+                      <id>31033</id>
+                      <scientific_name>Takifugu rubripes</scientific_name>
+                      <common_name>Fugu</common_name>
+                    </taxonomy>
+                    <events>
+                      <type>speciation_or_duplication</type>
+                      <duplications>1</duplications>
+                    </events>
+                    <clade branch_length="0.02099">
+                      <name>ENSTRUG00000000500</name>
+                      <taxonomy>
+                        <id>31033</id>
+                        <scientific_name>Takifugu rubripes</scientific_name>
+                        <common_name>Fugu</common_name>
+                      </taxonomy>
+                      <sequence>
+                        <accession source="Ensembl">ENSTRUP00000001187</accession>
+                        <name>cacnb3b-201</name>
+                        <location>3:9489448-9536315</location>
+                        <mol_seq is_aligned="0">MDLSRDRDPECVQRLRRIQLLCSSFQGSADSYTSRPSDSDLSLEEDQEASRREAERQAQLQLERAKSKPVAFAVKTNVSYCGALDEDCPVQGAAINFETKDFLHIKEKYNNDWWIGRLVKEGADITFIPSPVKLEAMRIKQEQKQQQGQSFYPIILLLLLFILKAKQKQKQTEPVPPYDVVPSMRPVVLVGPSLKGYEVTDMMQKALFDFLKHRFDGRISITRVTADLSLAKRSVLNKKAIMERSNTRSSLAEVQSEIERIFELAKSLQLVILDADTINHPAQLLKTSLAPIIVYVKVSSPKVLQRLIKSRGKSQSKHLNVQMMAGDKLAQCPPEMFDVILDENQLEDACEHLAEYLEIYWRATHLPCSAPANPLLEQSVITPPSANSSQQNDHTNGHTAPEERDNTEESVKESVTPLETLKLYPFRIQ</mol_seq>
+                      </sequence>
+                      <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">takifugu_rubripes</property>
+                    </clade>
+                    <clade branch_length="0.032234">
+                      <name>ENSTRUG00000015617</name>
+                      <taxonomy>
+                        <id>31033</id>
+                        <scientific_name>Takifugu rubripes</scientific_name>
+                        <common_name>Fugu</common_name>
+                      </taxonomy>
+                      <sequence>
+                        <accession source="Ensembl">ENSTRUP00000079908</accession>
+                        <name>cacnb3b-205</name>
+                        <location>3:9533988-9537332</location>
+                        <mol_seq is_aligned="0">MDLSRDRDPECVQRLRRIQLLCSSFQGSADSYTSRPSDSDLSLEEDQEASRREAERQAQLQLERAKSKPVAFAVKTNVSYCGALDEDCPVQGAAINFETKDFLHIKEKYNNDWWIGRLVKEGADITFIPSPVKLEAMRIKQEQKAAARSEVTLSLSEILLKNMLCYVLVAELPPEGASRTEPVPPYDVVPSMRPVVLVGPSLKGYEVKHLFIFG</mol_seq>
+                      </sequence>
+                      <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">takifugu_rubripes</property>
+                    </clade>
+                  </clade>
+                  <clade branch_length="0.198708">
+                    <name>ENSDARG00000076030</name>
+                    <taxonomy>
+                      <id>7955</id>
+                      <scientific_name>Danio rerio</scientific_name>
+                      <common_name>Zebrafish</common_name>
+                    </taxonomy>
+                    <sequence>
+                      <accession source="Ensembl">ENSDARP00000100850</accession>
+                      <name>cacnb3b-201</name>
+                      <location>23:26946429-26959206</location>
+                      <mol_seq is_aligned="0">SSADSYTSRPSDSDLSLEEDKEASRREAERQALLQLERAKTKPVAFAVRTNVSYCGALDEDCPVQGAAINFETKDFLHIKEKYNNDWWIGRLVKEGADIAFIPSPVKLEAMRIKQEQKAAQRKMGNASSGGWRSTPPSAAKQKQKQTEHVPPYDVVPSMRPVVLVGPSLKGYEVTDMMQKALFDFLKHRFDGRISITRVTADLSLAKRSVLNKKAIMERSNTRSSLAEVQSEIERIFELAKSLQLVVLDADTINHPAQLLKTSLAPIIVYVKVSSPKVLQRLIKSRGKSQSKHLNVQMMAGDKLAQCPPEMFDVILDENQLEDACEHLAEYLDIYWRATHLPGSAPLNPLVEQNVVTPPSANSSQQFSETQELIE</mol_seq>
+                    </sequence>
+                    <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">danio_rerio</property>
+                  </clade>
+                </clade>
+              </clade>
+              <clade branch_length="0.199555">
+                <name>ENSLOCG00000007413</name>
+                <taxonomy>
+                  <id>7918</id>
+                  <scientific_name>Lepisosteus oculatus</scientific_name>
+                  <common_name>Spotted gar</common_name>
+                </taxonomy>
+                <sequence>
+                  <accession source="Ensembl">ENSLOCP00000009001</accession>
+                  <name>cacnb3a-201</name>
+                  <location>LG4:18160156-18183808</location>
+                  <mol_seq is_aligned="0">MYEDLHLHGLEDLAPGSADSYTSRPSDSDLSLEEDREAYRREAERQALLQLERAKTKPVAFAVKTNVSYCGALDEDCPVQGAAINFEAKDFLHIKEVRGLEGRILYFGSKGMGIRFPDSPLNCFPCRKTGGNSSSSLGDMVSGGWRSTPPSAAKQKQKQAEHVPPYDVVPSMRPVVLVGPSLKGYEVTDMMQKALFDFLKHRFDGRISITRVTADLSLAKRSVLNKRAIMERSNTRSSLAEVQSEIERIFELAKTLQLVVLDADTINHPAQLAKTSLAPIIVYVKVSSPKVLQRLVKSRGKSQSKHLNVQLMAADKLAQCPPEMFDVILDENQLEDACEHLAEYLEVYWRATHMPGSAPMNPLLEQNLMTPPSAISSLQGRQLLAGGDRGEDLEGAHSSVELDSLMHSDEASDTASRGPAWGGGGLRPPEQQEYSRGHDRAYQDLCKPHRSNGAGLHSANGHESQDRLLLQRDADQSHNGGHSRQRPRPWPRDSY</mol_seq>
+                </sequence>
+                <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">lepisosteus_oculatus</property>
+              </clade>
+            </clade>
+          </clade>
+          <clade branch_length="0.125039">
+            <confidence type="duplication_confidence_score">0.3073</confidence>
+            <taxonomy>
+              <id>7776</id>
+              <scientific_name>Gnathostomata</scientific_name>
+              <common_name>Jawed vertebrates</common_name>
+            </taxonomy>
+            <events>
+              <type>speciation_or_duplication</type>
+              <duplications>1</duplications>
+            </events>
+            <clade branch_length="0.022614">
+              <confidence type="bootstrap">12</confidence>
+              <taxonomy>
+                <id>186625</id>
+                <scientific_name>Clupeocephala</scientific_name>
+                <common_name>Teleost fishes</common_name>
+              </taxonomy>
+              <clade branch_length="0.258827">
+                <name>ENSTRUG00000006633</name>
+                <taxonomy>
+                  <id>31033</id>
+                  <scientific_name>Takifugu rubripes</scientific_name>
+                  <common_name>Fugu</common_name>
+                </taxonomy>
+                <sequence>
+                  <accession source="Ensembl">ENSTRUP00000074810</accession>
+                  <name>cacnb4.1-209</name>
+                  <location>8:690208-707939</location>
+                  <mol_seq is_aligned="0">MHSEKTKLGITVIEEERRGGGRRGEEKTGEEKRRQERRGEGRGEERRREDRIGEEKTGEERGGERREDRRGKERRGEEIRQENFPYLYLVVSLYPINLCAICSQGSADSYTSRPSDSDVSLEEERENRQEREQLATIQLERAKTKPVAFAVRTNVSYCGALDEDVPVPATAISFDAKDFLHIKEKFNNDWWIGRLVKEGCEIGFIPSPLKLENIRLQQEQKRGRVQGKSGGNSSSSVEDEVSASIRPLISSAGESIRQGEGPLNSTGPDFLNINYLEGITTKDRENQRKRLPMSLHRTEHIPPYDVVPSMRPVVLVGPSLKGYEVTDMMQKALFDFLKHRFDGRISITRVTADISLAKRSVLNNPSKRAIIERSNTRSSLAEVQSEIERIFELARSLQLVVLDADTINHPAQLLKTSLAPIIVHVKVSSPKVLQRLVKSRGKSQSKHLNVQLVAADKLAQCPPEMFDVILDENQLEDACEHLAEYLEAYWKATHTSMATPLNPLLGRNLGPTILTPYPSTISGLQSQRMRQSNHTGDHSTSNERRNLMTSEENFHNERAHKGRNRMSSGSQHSREHQDPYQDYQDPYQDAYKPHRNRSSPGSYSHDSRHRL</mol_seq>
+                </sequence>
+                <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">takifugu_rubripes</property>
+              </clade>
+              <clade branch_length="0.307103">
+                <name>ENSDARG00000062174</name>
+                <taxonomy>
+                  <id>7955</id>
+                  <scientific_name>Danio rerio</scientific_name>
+                  <common_name>Zebrafish</common_name>
+                </taxonomy>
+                <sequence>
+                  <accession source="Ensembl">ENSDARP00000083997</accession>
+                  <name>cacnb4b-201</name>
+                  <location>6:14086688-14146979</location>
+                  <mol_seq is_aligned="0">MSRHIYIRNKIGEGIQAPIFQVNRGTYSRRSRLKRSDGSTTSTSFILRQGSADSYTSRPSDSDVSLEEERPEGGSQGRQEREQQAQLQLERAKAKAVAFAVKTNVSYCGALDEDVPVPGTAISFDAKDFLHIKEKFNNDWWIGRLVKEGCEIGFIPSPLKLENIRAQLEQKKSRVQGKSSGSSSSSLGDVMSSGKQKQKVTEHVAPYDVVPSMRPVVLVGPSLKGYEVTDMMQKALFDFLKHRFDGRITITRVTADISLAKRSVLNNPSKRAIIERSNTRSSLAEVQSEIERIFELARSLQLVVLDADTINHPAQLMKTSLAPIIVHVKVSSPKVLQRLIKSRGKSQSKHLNVQLVAADKLAQCPPEMFDIILDENQLEDACEHLAEYLEAYWKATHTSSSTPLNPLLGRNLGPAALAPYTTSAISGLQNQQGQKTRHANHTGDHSTPNERRNLMTSDENYHNERAHKGRNRGSSGSQHGGSGRDHHYMEEQQGYQDPYQDTYKPHRNRSSPGSYSQDSRHRL</mol_seq>
+                </sequence>
+                <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">danio_rerio</property>
+              </clade>
+            </clade>
+            <clade branch_length="0.025899">
+              <confidence type="duplication_confidence_score">0</confidence>
+              <taxonomy>
+                <id>7776</id>
+                <scientific_name>Gnathostomata</scientific_name>
+                <common_name>Jawed vertebrates</common_name>
+              </taxonomy>
+              <events>
+                <type>speciation_or_duplication</type>
+                <duplications>1</duplications>
+              </events>
+              <property datatype="xsd:int" ref="Compara:dubious_duplication" applies_to="clade">dubious_duplication</property>
+              <clade branch_length="0.045655">
+                <taxonomy>
+                  <id>186625</id>
+                  <scientific_name>Clupeocephala</scientific_name>
+                  <common_name>Teleost fishes</common_name>
+                </taxonomy>
+                <clade branch_length="0.232776">
+                  <name>ENSDARG00000009738</name>
+                  <taxonomy>
+                    <id>7955</id>
+                    <scientific_name>Danio rerio</scientific_name>
+                    <common_name>Zebrafish</common_name>
+                  </taxonomy>
+                  <sequence>
+                    <accession source="Ensembl">ENSDARP00000022331</accession>
+                    <name>cacnb4a-201</name>
+                    <location>9:38074082-38130085</location>
+                    <mol_seq is_aligned="0">MSRHIYTRHGIGDGVQKPIFQVNRGTYSRRSRLKRSDGSTTSTSFILRQGSADSYTSRPSDSDVSLDEEQGGRQEKEQQATVQLERAKAKAVAFAVRTNVSYCGALDEDVPVAGTAISFDAKDFLHIKEKYNNDWWIGRLVKEGCDIGFIPSPLKLENIRLQQDQKRGRFHGKSSGNSSSSLGEMVSGTFKPNPASAGKQKQKVAEHIPPYDVVPSMRPVVLVGPSLKGYEVTDMMQKALFDFLKHRFEGRISITRVTADISLAKRSVLNNPSKRAIIERSNTRSNLAEVQSEIERIFELARSLQLVVLDADTINHPAQLIKTSLAPIIVHVKVSSPKVLQRLIKSRGKSQSKHLNVQLVAADKLAQCPPEMFDIILDENQLEDACEHLSEYLEAYWRATHTSLSTPLNPLLGRNLGSTALSPYPTAISGLQSQRNKNSNHITDNSPMERRSLMTSDENYHNNERQKKTHNRLSSSSQQSRDHYPLVEEDYHDPYPDAYKPHRNRGSPGGYSNDSRHRL</mol_seq>
+                  </sequence>
+                  <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">danio_rerio</property>
+                </clade>
+                <clade branch_length="0.293373">
+                  <name>ENSTRUG00000014531</name>
+                  <taxonomy>
+                    <id>31033</id>
+                    <scientific_name>Takifugu rubripes</scientific_name>
+                    <common_name>Fugu</common_name>
+                  </taxonomy>
+                  <sequence>
+                    <accession source="Ensembl">ENSTRUP00000077535</accession>
+                    <name>cacnb4a-201</name>
+                    <location>1:26923878-26939843</location>
+                    <mol_seq is_aligned="0">MSRHIYTRHGIGEALQKPVSQVNRGTYSRRSRLKRSDGSTTSTSFILRQGSADSYTSRPSDSDVSLEEEKEGGPQEREQQATVQLERAKTKGVAFAVRTNVSYCGALDEDVPVSGTGVSFDAKDFLHIKEKFNNDWWIGRLVKEGCEIGFIPSPLKLENIRLQQEQKRGRFHGKSSGNSSSSLGEMVSGTFKPNPNSAGWSLGYLQMAEHIPPYDVVPSMRPVVLVGPSLKGYEVTDMMQKALFDFLKHRFDGRISITRVTADISLAKRSVLNNPSKRAIIERSNTRSSLAEVQSEIERIFELARALQLVVLDADTINHPGQLIKTSLAPIIVHVKVSSPKVLQRLIKSRGKSQSKHLNVQLVAAEKLAQCPSEMFDIILDENQLEDACEHLAEYLEAYWRATHTSLSTPLNPLLGRNLGSTALSPYPAAIQAQRNRNSNHAMTDHSPVERRTLMPADENYHNERARKNRNRLSSGSQHSRDHSPLVEEDYPDPYQDSYKPHRNRGSPGGYSQESRHRI</mol_seq>
+                  </sequence>
+                  <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">takifugu_rubripes</property>
+                </clade>
+              </clade>
+              <clade branch_length="0.13609">
+                <confidence type="bootstrap">12</confidence>
+                <taxonomy>
+                  <id>117571</id>
+                  <scientific_name>Euteleostomi</scientific_name>
+                  <common_name>Bony vertebrates</common_name>
+                </taxonomy>
+                <clade branch_length="0.093231">
+                  <confidence type="bootstrap">5</confidence>
+                  <confidence type="duplication_confidence_score">0</confidence>
+                  <taxonomy>
+                    <id>8287</id>
+                    <scientific_name>Sarcopterygii</scientific_name>
+                    <common_name>Lobe-finned fish</common_name>
+                  </taxonomy>
+                  <events>
+                    <type>speciation_or_duplication</type>
+                    <duplications>1</duplications>
+                  </events>
+                  <property datatype="xsd:int" ref="Compara:dubious_duplication" applies_to="clade">dubious_duplication</property>
+                  <clade branch_length="0.173584">
+                    <confidence type="bootstrap">1</confidence>
+                    <confidence type="duplication_confidence_score">0.0213</confidence>
+                    <taxonomy>
+                      <id>314146</id>
+                      <scientific_name>Euarchontoglires</scientific_name>
+                      <common_name>Primates and Rodents</common_name>
+                    </taxonomy>
+                    <events>
+                      <type>speciation_or_duplication</type>
+                      <duplications>1</duplications>
+                    </events>
+                    <clade branch_length="0.038353">
+                      <confidence type="bootstrap">1</confidence>
+                      <confidence type="duplication_confidence_score">1</confidence>
+                      <taxonomy>
+                        <id>9606</id>
+                        <scientific_name>Homo sapiens</scientific_name>
+                        <common_name>Human</common_name>
+                      </taxonomy>
+                      <events>
+                        <type>speciation_or_duplication</type>
+                        <duplications>1</duplications>
+                      </events>
+                      <clade branch_length="0">
+                        <name>ENSG00000182389</name>
+                        <taxonomy>
+                          <id>9606</id>
+                          <scientific_name>Homo sapiens</scientific_name>
+                          <common_name>Human</common_name>
+                        </taxonomy>
+                        <sequence>
+                          <accession source="Ensembl">ENSP00000438949</accession>
+                          <name>CACNB4-210</name>
+                          <location>2:151832771-152099167</location>
+                          <mol_seq is_aligned="0">MSSSSYAKNGTADGPHSPTSQVARGTTTRRSRLKRSDGSTTSTSFILRQGSADSYTSRPSDSDVSLEEDREAIRQEREQQAAIQLERAKSKPVAFAVKTNVSYCGALDEDVPVPSTAISFDAKDFLHIKEKYNNDWWIGRLVKEGCEIGFIPSPLRLENIRIQQEQKRGRFHGGKSSGNSSSSLGEMVSGTFRATPTSTAKQKQKVTEHIPPYDVVPSMRPVVLVGPSLKGYEVTDMMQKALFDFLKHRFDGRISITRVTADISLAKRSVLNNPSKRAIIERSNTRSSLAEVQSEIERIFELARSLQLVVLDADTINHPAQLIKTSLAPIIVHVKVSSPKVLQRLIKSRGKSQSKHLNVQLVAADKLAQCPPEMFDVILDENQLEDACEHLGEYLEAYWRATHTTSSTPMTPLLGRNLGSTALSPYPTAISGLQSQRMRHSNHSTENSPIERRSLMTSDENYHNERARKSRNRLSSSSQHSRDHYPLVEEDYPDSYQDTYKPHRNRGSPGGYSHDSRHRL</mol_seq>
+                        </sequence>
+                        <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">homo_sapiens</property>
+                      </clade>
+                      <clade branch_length="0.104771">
+                        <name>ENSG00000283228</name>
+                        <taxonomy>
+                          <id>9606</id>
+                          <scientific_name>Homo sapiens</scientific_name>
+                          <common_name>Human</common_name>
+                        </taxonomy>
+                        <sequence>
+                          <accession source="Ensembl">ENSP00000489697</accession>
+                          <name>AC068547.1-203</name>
+                          <location>2:151802651-151973949</location>
+                          <mol_seq is_aligned="0">MYDNLYLHGIEDSEAGSADSYTSRPSDSDVSLEEDREAIRQEREQQAAIQLERAKSKPVAFAVKTNVSYCGALDEDVPVPSTAISFDAKDFLHIKEKYNNDWWIGRLVKEGCEIGFIPSPLRLENIRIQQEQKRGRFHGGKSSGNSSSSLGEMVSGTFRATPTSTAKQKQKVTEHIPPYDVVPSMRPVVLVGPSLKGYERKYKVKLKESLSWQDLCNWLFLMQTPSITQHNL</mol_seq>
+                        </sequence>
+                        <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">homo_sapiens</property>
+                      </clade>
+                    </clade>
+                    <clade branch_length="0.123464">
+                      <name>ENSMUSG00000017412</name>
+                      <taxonomy>
+                        <id>10090</id>
+                        <scientific_name>Mus musculus reference (CL57BL6) strain</scientific_name>
+                        <common_name>Mouse</common_name>
+                      </taxonomy>
+                      <sequence>
+                        <accession source="Ensembl">ENSMUSP00000077438</accession>
+                        <name>Cacnb4-201</name>
+                        <location>2:52318332-52566843</location>
+                        <mol_seq is_aligned="0">MSSSYGKNGAADGPHSPSSQVARGTTTRRSRLKRSDGSTTSTSFILRQGSADSYTSRPSDSDVSLEEDREAIRQEREQQAAIQLERAKSKPVAFAVKTNVSYCGALDEDVPVPSTAISFDAKDFLHIKEKYNNDWWIGRLVKEGCEIGFIPSPLRLENIRIQQEQKRGRFHGGKSSGNSSSSLGEMVSGTFRATPTTTAKQKQKVTEHIPPYDVVPSMRPVVLVGPSLKGYEVTDMMQKALFDFLKHRFDGRISITRVTADISLAKRSVLNNPSKRAIIERSNTRSSLAEVQSEIERIFELARSLQLVVLDADTINHPAQLIKTSLAPIIVHVKVSSPKVLQRLIKSRGKSQSKHLNVQLVAADKLAQCPPEMFDVILDENQLEDACEHLGEYLEAYWRATHTSSSTPMTPLLGRNVGSTALSPYPTAISGLQSQRMRHSNHSTENSPIERRSLMTSDENYHNERARKSRNRLSSSSQHSRDHYPLVEEDYPDSYQDTYKPHRNRGSPGGCSHDSRHRL</mol_seq>
+                      </sequence>
+                      <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">mus_musculus</property>
+                    </clade>
+                  </clade>
+                  <clade branch_length="0.143491">
+                    <name>ENSLACG00000012990</name>
+                    <taxonomy>
+                      <id>7897</id>
+                      <scientific_name>Latimeria chalumnae</scientific_name>
+                      <common_name>Coelacanth</common_name>
+                    </taxonomy>
+                    <sequence>
+                      <accession source="Ensembl">ENSLACP00000014759</accession>
+                      <name>cacnb4a-201</name>
+                      <location>JH127320.1:793742-813593</location>
+                      <mol_seq is_aligned="0">KYFQKQGSADSYTSRPSDSDVSLEEDREVARQDREQQAALQLERAKAKPVAFAVKTNVSYCGALDEDVPVPGTAISFDAKDFLHIKEKYNNDWWIGRLVKEGCEIGFIPSPLKLDNIRIQQEQKRGRFHGGKSGGNSSSSLGEMVSGTFRATPPSAAKQKQKVTEHIPPYDVVPSMRPVVLVGPSLKGYEVTDMMQKALFDFLKHRFDGRISITRVTADISLAKRSVLNNPSKRAIIERSNTRSSLAEVQSEIERIFELARSLQLVVLDADTINHPAQLIKTSLAPIIVHVKVSSPKVLQRLIKSRGKSQSKHLNVQLVAADKLAQCAPEMFDIILDENQLEDACEHLAEYLEAYWRATHTTSSTPMTPLLGRNLGSTALSPYPTAISGLQGQRMRHSNHSSENSPIERRSLMTSDENFHSERARKSRNRLSSSSQHSRDHYPLVEEEYSDSYQDTYKPHRNRGSPGGYSHDSRHRL</mol_seq>
+                    </sequence>
+                    <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">latimeria_chalumnae</property>
+                  </clade>
+                </clade>
+                <clade branch_length="0.185504">
+                  <name>ENSLOCG00000002565</name>
+                  <taxonomy>
+                    <id>7918</id>
+                    <scientific_name>Lepisosteus oculatus</scientific_name>
+                    <common_name>Spotted gar</common_name>
+                  </taxonomy>
+                  <sequence>
+                    <accession source="Ensembl">ENSLOCP00000003025</accession>
+                    <name>cacnb4a-201</name>
+                    <location>LG12:4543050-4587746</location>
+                    <mol_seq is_aligned="0">MSRHLYARHKLGDGLQTPIFQVTRGTQSRRSRLKRSDGSTTSTSFILRQGSADSYTSRPSDSDVSLEEDREGVRQEREQQAAIQLERAKAKAVAFAVKTNVSYCGALDEDVPVAGTAISFDAKDFLHIKEKYNNDWWIGRLVKEGCEIGFIPSPLKLENIRIQQEQKRGRFHGKSSGNSSSSLGEMVSGTFRNTPPSAAKQKQKVAEHIPPYDVVPSMRPVVLVGPSLKGYEVTDMMQKALFDFLKHRFDGRISITRVTADISLAKRSVLNNPSKRAIIERSNTRSSLAEVQSEIERIFELARSLQLVVLDADTINHPAQLIKTSLAPIIVHVKVSSPKVLQRLIKSRGKSQSKHLNVQLVAADKLAQCPPEMFDIILDENQLEDACEHLAEYLEAYWRATHVPNSTPMNPLLGRNLGSTALSPYPTAISGLQGQRMRHGNHSGEHSPIERRSLMTSDENYHSERARKSRNRLSSGSQHSRDHYPLVEEEYSDPYQDTYKPHRNRGSPGGYSHDSRHRL</mol_seq>
+                  </sequence>
+                  <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">lepisosteus_oculatus</property>
+                </clade>
+              </clade>
+            </clade>
+          </clade>
+        </clade>
+      </clade>
+      <clade branch_length="0.61976">
+        <name>FBgn0259822</name>
+        <taxonomy>
+          <id>7227</id>
+          <scientific_name>Drosophila melanogaster</scientific_name>
+          <common_name>Drosophila melanogaster</common_name>
+        </taxonomy>
+        <sequence>
+          <accession source="Ensembl">FBpp0301962</accession>
+          <name>Ca-beta-RL</name>
+          <location>2L:11156118-11203544</location>
+          <mol_seq is_aligned="0">MVQRASSSDAPSVQGGQHRESRFGLGYPSYQSGYNKLFTQGSADSNYSQPSSDLSLDEEKESLRREKERQALSQLDKARSKPVAFAVRTNVAYDGAIDDDSPVQGGAVSFEIREFLHIKEKYDNNWWIGRLVKEGCDVGFIPSPAKLDNIRMQNQTRPSRLYGTKGSSSGNLGAGGQAGAEPSRGSTPPTPGDESDSMGPGRHGKTPAAAANKEKRKPFFKKQETASPYDVVPSMRPVVLVGPSLKGYEVTDMMQKALFDFLKHRFEGRIIITRVMADISLAKRSIMNNPSKRAIMERSSSRSDCLGKVQEEIERIFELARSLQLVVLDCDTINHPSQLAKTSLAPTIVYLKISSSKVLQRLIKSRGKSQAKNLSVQMVAAEKLAQCPPDMFDVILDENQLEDACEHIAEYLETYWKATHPDIRAVPPIARPLPQEASPSADPARLGPTPPVDGEEFVDEQDPRMGMSGGDREGSRERDRDSRERERERERERDYWDREFNRDRSSKDRERDLEWERERAREWERERERDWDREFDWDQGGTSYQHSRRQPTSVRHQERGGGVGAGGGGGGVGGGYERDRERERYERRERDLMHYDLNSDELLDERNFEYPAMRSGPSGASHHGHLSRGGRLLEDPDFEREEAQMRMSSSRYGPSTRIDDPRDLPRGATVVDRDEYSPHRGGGSSRRMLNAMSRPLGLPRQSSLPSNRAPVSYLPRQSSLGTHWLSSSSQSNLDQGPQSRRELYPLLHQPQSYSQPRSQYTSHSYTSAPQHTSQSRSQSQSHSQSHSQYRYSVQDTSFAHPPRSLREEFLSPTMSKVEAVTHAIRNKIIVEEDEEDILSTDRFY</mol_seq>
+        </sequence>
+        <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">drosophila_melanogaster</property>
+      </clade>
+    </clade>
+    <property datatype="xsd:string" ref="Compara:gene_tree_stable_id" applies_to="phylogeny">ENSGT00950000182837</property>
+  </phylogeny>
+</phyloxml>

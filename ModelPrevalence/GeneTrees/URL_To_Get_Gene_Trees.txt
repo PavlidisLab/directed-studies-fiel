@@ -1,0 +1,1 @@
+https://rest.ensembl.org/genetree/id/ENSGT00950000183153?content-type=application/text/x-nh;nh_format=simple;prune_species=mouse;prune_species=human;prune_species=zebrafish;prune_species=coelacanth;prune_species=lamprey;prune_species=spotted+gar;prune_species=takifugu_rubripes;prune_species=drosophila_melanogaster
